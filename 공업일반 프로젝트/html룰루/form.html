@@ -1,0 +1,62 @@
+<html>
+<head>
+<!--으;히ㅏ머;나어ㅏㄴ우;ㅏㅣㅅ먿ㅈ나ㅣㄹ어ㅏㅓ마너뒤;ㅏ람ㄴ울-->
+8
+    <meta charset="utf-8">
+</head>
+<body>
+<form action="http://localhost/login.php">
+    <h1>텍스트입력_아이디 </h1>
+    <p>아이디 : <input type="text" name="id"></p>
+    <h1>텍스트입력_비밀번호 </h1>
+    <p>비밀번호 : <input type="password" name="pwd" value="password"></p>
+    <h1>텍스트입력_긴창</h1>
+    <p>특의상항:<textarea cols="50" rows ="2" value = "default value"></textarea>
+    <h1>트롭다운 리스트 박스_선택1</h1>
+    <p>색상</p>
+            <select name="color">
+                <option value="red">붉은색</option>
+                <option value="black">검은색</option>
+                <option value="blue">파란색</option>
+                <option value="blue">주황색</option>
+            </select>
+            
+<h1>라디오버튼_선택2</h1>
+            <p>좋아하는 장르를 선택하세요 :
+            <br />
+ 			<input type="radio" name="genre" value="rock" checked="checked" />락
+ 			<input type="radio" name="genre" value="pop" checked="checked" />팝
+ 			<input type="radio" name="genre" value="jazz" checked="checked" />재즈
+	
+</p>
+<h1>체크박스_선택3</h1>
+<p>좋아하는 음악서비스 : 
+<br />
+<input type="checkbox" name="services" value="itunes" checked="checked" />아이툰즈
+<input type="checkbox" name="services" value="last" checked="checked" />라스트 
+<input type="checkbox" name="services" value="sporify" checked="checked" />스포티파이 
+</p>
+
+<h1>다중 셀렉트박스_선택4</h1>
+<p>다움중 연주가능한 악기는?(다중선택가능)</p>
+<section name="instruments" size="3" multiple="multiple">
+	<option value="guitar" selected="selected">기타 </option>
+	<option value="keyborad" >키보드  </option>
+	<option value="drums" selected="selected">드럼 </option>
+	<option value="bass" >베이스 </option>
+</section>
+
+<h1>파입 올리기</h1>
+<p>파일을 올리세요:</p>
+<input type="file" name="user-song"><br />
+<input type="submit" name="Upload" value="올리기"><br/>
+
+<h1>전송버튼</h1>
+<p>이메일목록에 가입하세요:
+</p>
+<input type="text" name="email"/>
+    <input type="submit" name="subscribe" value="가입">
+
+    <h1>버튼 </h1>
+</body>
+</html>
